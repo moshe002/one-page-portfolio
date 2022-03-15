@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px;
+    padding: 0px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,6 +11,8 @@ body {
 #header {
     position: fixed;
     top: 0;
+    justify-content: center;
+    align-items: center;
     height: 15rem;
     width: 100%;
     background-color: lightgray;
@@ -62,8 +64,8 @@ body {
 
 .div-paragraph {
     /* border: 1px solid black; */
-    width: 25rem;
-    padding: 2rem 2rem 2rem 2rem;
+    width: auto;
+    padding: 2rem 20rem 2rem 20rem; /*top, right, bottom, left*/
 }
 
 .about-me-div h1 {
@@ -124,7 +126,7 @@ body {
 
 .skills-div .skills section {
     margin-top: 3rem;
-    width: 25rem;
+    width: auto;
     height: auto;
     padding: 2rem 1rem 2rem 1rem;
     background-color: lightgray;
@@ -349,7 +351,7 @@ body {
 #footer footer {
     background-color: lightgray;
     width: 100%;
-    height: 5rem;
+    height: auto;
     border-top: 2px solid gray;
     padding-bottom: 2rem;
     padding-top: 1rem;
