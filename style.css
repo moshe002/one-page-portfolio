@@ -108,7 +108,12 @@ body {
 .about-me-div .second-paragraph{
     color: black;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    /* border: 1px solid black; */
+    /* padding-bottom: 4rem; */
+}
+
+.about-me-div .third-paragraph {
+    padding-top: 4rem;
 }
 
 .about-me-div .fourth-paragraph{
@@ -116,6 +121,19 @@ body {
     padding-top: 4rem;
     /* padding-bottom: 4rem; */
 }
+
+/* .about-me-div .div-paragraph #line {
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    color: black;
+}
+
+.about-me-div .div-paragraph #line:hover {
+    opacity: 100%;
+    font-weight: bolder;
+    color: black;
+} */
 
 /*SKILLS SECTION*/
 .skills-div {
@@ -163,7 +181,7 @@ body {
 .skills-div .skills section:hover {
     /* border: 1px solid white; */
     border-radius: 14px;
-    box-shadow: 0 0 10px 1px black; /*horizontal offset, vertical offset, blur, color*/
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.25); /*horizontal offset, vertical offset, blur, color*/
     animation-name: bg;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
