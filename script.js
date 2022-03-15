@@ -12,6 +12,8 @@ function scrollFunction() {
         document.getElementById("text-header").style.marginTop = "1rem";
         document.getElementById("div-header").style.borderBottom = "2px solid gray";
         document.getElementById("div-header").style.boxShadow = "1px 2px 8px 1px black";
+        document.getElementById("div-header").style.backgroundColor = "lightgray";
+        document.getElementById("text-header").style.color = "black";
     }
     else {
         document.getElementById("text-header").style.fontSize = "50px";
@@ -20,8 +22,10 @@ function scrollFunction() {
         document.getElementById("div-header").style.height = "15rem";
         document.getElementById("profile").style.marginTop = "-2rem";
         document.getElementById("text-header").style.marginTop = "2rem";
-        document.getElementById("div-header").style.border = "none";
+        document.getElementById("div-header").style.borderBottom = "2px solid black";
         document.getElementById("div-header").style.boxShadow = "none";
+        document.getElementById("div-header").style.backgroundColor = "gray";
+        document.getElementById("text-header").style.color = "white";
     }
 }
 
