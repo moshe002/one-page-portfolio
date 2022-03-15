@@ -1,11 +1,19 @@
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 body {
     display: flex;
     flex-direction: column;
     /* justify-content: center;
     align-items: center; */
     text-align: center;
+    /* width: 100%;
+    height: 100%; */
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden; 
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -214,6 +222,8 @@ body {
 
 .projects-div .project-text-div p {
     font-size: 18px;
+    text-align: justify;
+    /* text-justify: inter-word; */
 }
 
 .projects-div .project-text-div span {
@@ -245,7 +255,7 @@ body {
     /* border: 1px solid black; */
     margin-top: 2rem;
     padding: 5rem 5rem 5rem 5rem;
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: none;
     transition: 1s;
@@ -259,7 +269,8 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: auto;
+    max-width: 40rem;
+    max-height: 40rem;
     position: relative;
     margin: auto;
     /* margin-top: 5rem; */
@@ -307,7 +318,8 @@ body {
   /* Caption text */
 .text {
     color: black;
-    font-size: 18px;
+    font-size: 19px;
+    font-weight: bold;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -383,7 +395,7 @@ body {
 }
 
 #footer footer #fb {
-    padding-right: 6rem;
+    padding-right: 3rem;
     transition: 1s;
 }
 
@@ -393,7 +405,7 @@ body {
 }
 
 #footer footer #twt {
-    padding-left: 6rem;
+    padding-left: 3rem;
     transition: 1s;
 }
 
