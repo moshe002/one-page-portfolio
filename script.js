@@ -5,23 +5,23 @@ window.onscroll = function() {
 function scrollFunction() {
     if(document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
         document.getElementById("text-header").style.fontSize = "20px";
-        document.getElementById("header").style.height = "8rem";
+        document.getElementById("div-header").style.height = "8rem";
         document.getElementById("profile").style.maxHeight = "50px";
         document.getElementById("profile").style.maxWidth = "70px";
         document.getElementById("profile").style.marginTop = "-1rem";
         document.getElementById("text-header").style.marginTop = "1rem";
-        document.getElementById("header").style.borderBottom = "2px solid gray";
-        document.getElementById("header").style.boxShadow = "1px 2px 8px 1px black";
+        document.getElementById("div-header").style.borderBottom = "2px solid gray";
+        document.getElementById("div-header").style.boxShadow = "1px 2px 8px 1px black";
     }
     else {
         document.getElementById("text-header").style.fontSize = "50px";
         document.getElementById("profile").style.maxHeight = "100px";
         document.getElementById("profile").style.maxWidth = "120px";
-        document.getElementById("header").style.height = "15rem";
+        document.getElementById("div-header").style.height = "15rem";
         document.getElementById("profile").style.marginTop = "-2rem";
         document.getElementById("text-header").style.marginTop = "2rem";
-        document.getElementById("header").style.border = "none";
-        document.getElementById("header").style.boxShadow = "none";
+        document.getElementById("div-header").style.border = "none";
+        document.getElementById("div-header").style.boxShadow = "none";
     }
 }
 

@@ -2,18 +2,23 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* margin: 0px;
-    padding: 0px; */
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*HEADER*/
-#header {
+/* #div-header {
+    border: 10px solid black;
+} */
+
+#div-header {
+    /* display: none; */
     position: fixed;
     top: 0;
-    justify-content: center;
-    align-items: center;
-    height: 15rem;
+    /* justify-content: center;
+    align-items: center; */
+    height: 14rem;
     width: 100%;
     background-color: lightgray;
     transition: 0.9s;
