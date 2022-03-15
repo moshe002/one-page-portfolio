@@ -31,12 +31,12 @@ body {
     z-index: 1;
 }
 
-header {
+/* header {
     /* display: flex;
     flex-direction: column; */
-    border: 1px solid black;
-    /* //width: 100%; */
-}
+    /* border: 1px solid black; */
+    /*width: 100%; 
+} */
 
 #div-header header #text-header {
     position: none;
