@@ -1,0 +1,50 @@
+/*HEADER*/
+
+/* #div-header {
+    border: 10px solid black;
+} */
+
+#div-header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* top: 0; */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: auto;
+    width: 100%;
+    background-color: gray;
+    transition: 0.9s;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    z-index: 1;
+    /* opacity: 100%; */
+}
+
+/* header {
+    /* display: flex;
+    flex-direction: column; */
+    /* border: 1px solid black; */
+    /*width: 100%; 
+} */
+
+#div-header header #text-header {
+    position: none;
+    margin-top: 2rem;
+    transition: 0.9s;
+    font-size: 50px;
+    color: white;
+}
+
+#div-header header img {
+    margin-top: -2rem;
+    border-radius: 100%;
+    max-width: 120px;
+    max-height: 100px;
+    transition: 0.2s;
+}
+
+#div-header header img:hover {
+    border: 2px solid black;
+}

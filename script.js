@@ -14,6 +14,7 @@ function scrollFunction() {
         document.getElementById("div-header").style.boxShadow = "1px 2px 8px 1px black";
         document.getElementById("div-header").style.backgroundColor = "lightgray";
         document.getElementById("text-header").style.color = "black";
+        // document.getElementById("div-header").style.opacity = "90%";
     }
     else {
         document.getElementById("text-header").style.fontSize = "50px";
@@ -26,6 +27,7 @@ function scrollFunction() {
         document.getElementById("div-header").style.boxShadow = "none";
         document.getElementById("div-header").style.backgroundColor = "gray";
         document.getElementById("text-header").style.color = "white";
+        // document.getElementById("div-header").style.opacity = "100%";
     }
 }
 
@@ -61,3 +63,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// document.getElementsById("fb-logo").onmouseover = function() {onMouseHover()};
+// document.getElementsById("fb-logo").onmouseout = function() {offMouseHover()};
+
+// function onMouseHover() {
+//     document.getElementById("fb-logo").style.opacity = "100%";
+// }
+
+// function offMouseHover() {
+//   document.getElementById("fb-logo").style.opacity = "50%";
+// }

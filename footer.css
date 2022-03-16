@@ -1,0 +1,84 @@
+/*FOOTER*/
+#footer {
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid red;  */
+    width: 100%;
+}
+
+#footer footer {
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    border-top: 2px solid gray;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    border: 1px solid black;
+}
+
+#footer footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#footer footer #fb {
+    padding-right: 3rem;
+    transition: 1s;
+}
+
+#footer footer #fb:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#footer footer #twt {
+    padding-left: 3rem;
+    transition: 1s;
+}
+
+#footer footer #twt:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+#footer footer #git {
+    transition: 1s;
+}
+
+#footer footer #git:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+/* LOGOS FOOTER */
+
+#footer footer .div-logos {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#footer footer .div-logos #fb-logo {
+    margin-right: 5rem;
+    border-radius: 50%;
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+#footer footer .div-logos #github-logo {
+    margin-left: 0.8rem;
+    border-radius: 50%;
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+#footer footer .div-logos #twt-logo {
+    margin-left: 4rem;
+    border-radius: 50%;
+    max-width: 2rem;
+    max-height: 2rem;
+}
