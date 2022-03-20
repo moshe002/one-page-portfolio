@@ -33,8 +33,8 @@ body {
     padding: 2rem 2rem 8rem 2rem;  
     /* border: 5px solid black; */
     background-image: url('image/background.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .about-me-div span {
@@ -195,8 +195,8 @@ body {
     padding-bottom: 6rem;
     box-sizing:border-box;
     background-image: url('image/background.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .projects-div h1 {
