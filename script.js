@@ -9,7 +9,7 @@ function scrollFunction() {
         document.getElementById("profile").style.maxHeight = "50px";
         document.getElementById("profile").style.maxWidth = "70px";
         document.getElementById("profile").style.marginTop = "-1rem";
-        document.getElementById("text-header").style.marginTop = "1rem";
+        document.getElementById("text-header").style.marginTop = "0.5rem";
         document.getElementById("div-header").style.borderBottom = "2px solid gray";
         document.getElementById("div-header").style.boxShadow = "1px 2px 8px 1px black";
         document.getElementById("div-header").style.backgroundColor = "lightgray";
@@ -22,7 +22,7 @@ function scrollFunction() {
         document.getElementById("profile").style.maxWidth = "120px";
         document.getElementById("div-header").style.height = "15rem";
         document.getElementById("profile").style.marginTop = "-2rem";
-        document.getElementById("text-header").style.marginTop = "2rem";
+        document.getElementById("text-header").style.marginTop = "0.5rem";
         document.getElementById("div-header").style.borderBottom = "2px solid black";
         document.getElementById("div-header").style.boxShadow = "none";
         document.getElementById("div-header").style.backgroundColor = "gray";

@@ -33,8 +33,8 @@ body {
     padding: 2rem 2rem 8rem 2rem;  
     /* border: 5px solid black; */
     background-image: url('image/background.gif');
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about-me-div span {
